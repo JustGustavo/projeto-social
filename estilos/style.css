@@ -46,6 +46,7 @@ section#telefone {
 }
 
 #miniaturas{
+    
     display: flex;
     height: 100vh;
     flex-flow: column wrap;
