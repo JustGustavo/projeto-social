@@ -45,8 +45,12 @@ section#telefone {
 
 }
 
-section#sociais {
-    text-align: right   ;
+#miniaturas{
+    display: flex;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: right;
 }
 
 section#sociais img {
