@@ -44,3 +44,23 @@ section#telefone {
     background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
+#miniaturas {
+    display: flex;
+    text-align: right;
+    flex-flow: column;
+   
+   
+    
+    
+   
+    
+}
+section#sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
+
+    
+
+}
