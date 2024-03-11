@@ -49,7 +49,7 @@ section#telefone {
     
     display: flex;
     height: 100vh;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     text-align: right;
 }
