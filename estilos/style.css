@@ -44,18 +44,23 @@ section#telefone {
     background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
-#miniaturas {
-    display: flex;
-    text-align: right;
-    flex-flow: column;
-   
+
+section#sociais {
+    text-align: right   ;
 }
+
 section#sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.678);
+    box-sizing: border-box;
 
-    
+}
 
+section#sociais img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    transform: translate(-3px, -3px);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.651) ;
+    transition: transform .3s, border .4s;
 }
